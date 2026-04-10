@@ -11,7 +11,7 @@
 #define COR_VERDE     "\x1b[32m" // Prioridade 4 e 5
 #define COR_RESET     "\x1b[0m"  // Normal
 
-typedef struct Paciente {
+typedef struct Paciente { // struct paciente
     char nome[50];
     int codigo_triagem;
     int prioridade; // 1 a 5
